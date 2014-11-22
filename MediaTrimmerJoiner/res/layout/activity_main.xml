@@ -1,0 +1,130 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_x="245dp"
+        android:layout_y="404dp"
+        android:text="Join" />
+
+    <RadioGroup
+        android:id="@+id/RadioGroup02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="6dp"
+        android:layout_y="385dp" >
+
+        <RadioButton
+            android:id="@+id/RadioButton03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Song A" />
+
+        <RadioButton
+            android:id="@+id/RadioButton04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Song B" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/TextView03"
+        android:layout_width="88dp"
+        android:layout_height="30dp"
+        android:layout_x="130dp"
+        android:layout_y="391dp"
+        android:text="----------" />
+
+    <TextView
+        android:id="@+id/TextView04"
+        android:layout_width="87dp"
+        android:layout_height="30dp"
+        android:layout_x="130dp"
+        android:layout_y="424dp"
+        android:text="----------" />
+
+   
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_x="141dp"
+        android:layout_y="310dp"
+        android:text="00" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_x="141dp"
+        android:layout_y="338dp"
+        android:text="00" />
+
+    <RadioGroup
+        android:id="@+id/radioSex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="7dp"
+        android:layout_y="303dp" >
+
+        <RadioButton
+            android:id="@+id/radioButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start time " />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="End time" />
+    </RadioGroup>
+
+    <SeekBar
+        android:id="@+id/seekBar1"
+        android:layout_width="294dp"
+        android:layout_height="wrap_content"
+        android:layout_x="11dp"
+        android:layout_y="254dp" />
+
+    <ListView
+        android:id="@+id/android:list"
+        android:layout_width="match_parent"
+        android:layout_height="198dp"
+        android:layout_x="0dp"
+        android:layout_y="48dp" >
+    </ListView>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_x="244dp"
+        android:layout_y="354dp"
+        android:text="Stop" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_x="245dp"
+        android:layout_y="305dp"
+        android:text="Trim" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="246dp"
+        android:layout_height="35dp"
+        android:layout_x="68dp"
+        android:layout_y="6dp"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+</AbsoluteLayout>
